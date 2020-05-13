@@ -47,4 +47,6 @@ def main(x) :
 	write_file('products.csv', products)
 
 x = input('請輸入檔案名:')
-main(x)
+if __name__ == '__main__':
+	main(x)
+
